@@ -7,6 +7,7 @@ import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -31,10 +32,15 @@ public class base {
 		prop.load(fis);
 		//String browserName = System.getProperty("browser");
 		String browserName = prop.getProperty("browser");
-		if (browserName.equalsIgnoreCase("chrome")) 
+		if (browserName.contains("chrome")) 
 		{
 			System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"\\src\\main\\java\\resources\\chromedriver\\chromedriver.exe");
-			driver = new ChromeDriver();
+			ChromeOptions options = new ChromeOptions();
+			if (browserName.contains("headless")) 
+			{
+				options.addArguments("headless");
+			}
+			driver = new ChromeDriver(options);
 			
 		}
 		else if(browserName.equalsIgnoreCase("firefox")) 
