@@ -13,7 +13,7 @@ public class TripDetails {
 	JavascriptExecutor js;
 	String getWindowHandle;
 	String getCurrentWindowTitle;
-	By continueBooking = By.xpath("//button[@id='bookButton']");
+	private By continueBooking = By.xpath("//button[@id='bookButton']");
 	
 	public TripDetails(WebDriver driver) 
 	{

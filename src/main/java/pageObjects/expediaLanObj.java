@@ -17,19 +17,19 @@ public class expediaLanObj {
 			PageFactory.initElements(driver, this);
 		}
 	
-	 @FindBy(xpath = "//button[@id='tab-flight-tab-hp']") 
+	 private @FindBy(xpath = "//button[@id='tab-flight-tab-hp']") 
 	 WebElement Flights;
-	 @FindBy(xpath = "//input[@id='flight-origin-hp-flight']")
+	 private @FindBy(xpath = "//input[@id='flight-origin-hp-flight']")
 	 WebElement Flyingfrom;
-	 @FindBy(xpath = "//input[@id='flight-destination-hp-flight']")
+	 private @FindBy(xpath = "//input[@id='flight-destination-hp-flight']")
 	 WebElement Goingto;
-	 @FindBy(xpath = "//input[@id='flight-departing-hp-flight']")
+	 private @FindBy(xpath = "//input[@id='flight-departing-hp-flight']")
 	 WebElement Departing;
-	 @FindBy(xpath = "//div[@class='col gcw-date-field']//div[2]//table[1]//tbody/tr/td/button")
+	 private @FindBy(xpath = "//div[@class='col gcw-date-field']//div[2]//table[1]//tbody/tr/td/button")
 	 WebElement LeftCalendar;
-	 @FindBy(xpath = "//input[@id='flight-returning-hp-flight']")
+	 private @FindBy(xpath = "//input[@id='flight-returning-hp-flight']")
 	 WebElement Returning;
-	 @FindBy(xpath = "//form[@id='gcw-flights-form-hp-flight']//button[@class='btn-primary btn-action gcw-submit']")
+	 private @FindBy(xpath = "//form[@id='gcw-flights-form-hp-flight']//button[@class='btn-primary btn-action gcw-submit']")
 	 WebElement SearchButton;
 	public WebElement Flights() 
 	 {

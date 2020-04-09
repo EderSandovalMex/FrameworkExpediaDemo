@@ -34,22 +34,22 @@ public class FlightsListObj {
 		PageFactory.initElements(driver, this);
 	}
 	
-	String PriceLowest= "Price (Lowest)";
-	String PriceHighest= "Price (Highest)";
-	String DurationShortest = "Duration (Shortest)";
-	String DurationLongest = "Duration (Longest)";
-	String DepartureEarliest =  "Departure (Earliest)";
-	String DepartureLatest = "Departure (Latest)";	
-	String ArrivalEarliest = "Arrival (Earliest)";
-	String ArrivalLatest = "Arrival (Latest)";
+	private String PriceLowest= "Price (Lowest)";
+	private String PriceHighest= "Price (Highest)";
+	private String DurationShortest = "Duration (Shortest)";
+	private String DurationLongest = "Duration (Longest)";
+	private String DepartureEarliest =  "Departure (Earliest)";
+	private String DepartureLatest = "Departure (Latest)";	
+	private String ArrivalEarliest = "Arrival (Earliest)";
+	private String ArrivalLatest = "Arrival (Latest)";
 	
 	
-	By SortFlightDropdown = By.xpath("//select[@id='sortDropdown']");
+	private By SortFlightDropdown = By.xpath("//select[@id='sortDropdown']");
 	//Boton Superior
-	By TopSelectButton = By.xpath("//button[@class='btn-secondary btn-action t-select-btn']");
+	private By TopSelectButton = By.xpath("//button[@class='btn-secondary btn-action t-select-btn']");
 	//SecondaryButton
-	By SecTopSelectButton = By.xpath("//div[@id='basic-economy-tray-content-1']//button[@class='btn-secondary btn-action t-select-btn']");
-	By Nothanksbutton = By.xpath("//a[@id='forcedChoiceNoThanks']");
+	private By SecTopSelectButton = By.xpath("//div[@id='basic-economy-tray-content-1']//button[@class='btn-secondary btn-action t-select-btn']");
+	private By Nothanksbutton = By.xpath("//a[@id='forcedChoiceNoThanks']");
 	
 	public String PriceLowest() 
 	{
@@ -80,6 +80,10 @@ public class FlightsListObj {
 	public String ArrivalEarliest() 
 	{
 		return ArrivalEarliest;
+	}
+	public String ArrivalLatest() 
+	{
+		return ArrivalLatest;
 	}
 	
 	

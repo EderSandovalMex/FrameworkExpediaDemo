@@ -66,8 +66,7 @@ public class expedia extends base{
 		log.info("Close Driver");
 		TD.driver.quit();
 		log.info("Quit Driver");
-		System.out.println("Im adding some other comments to thest the Merge Functionality and the "
-				+"Branching Functionality of the GIT");
+		
 	}
 	@Test(dataProvider = "CitysandDays") 
 	public void expediaOrderDateDesc(String from,String goingt, String departing, String returning) throws IOException, InterruptedException
@@ -118,26 +117,9 @@ public class expedia extends base{
 		log.info("Close window");
 		TD.driver.quit();
 		log.info("Quit Driver");
-		System.out.println("Im adding some other comments to thest the Merge Functionality and the "
-				+"Branching Functionality of the GIT");
+		
 	}
 	 
-	@Test 
-	public void DummymethodforGit() 
-	{
-		System.out.println("this its a random commentary for the example");
-	}
-	@Test 
-	public void DummymethodforGit1() 
-	{
-		System.out.println("this its a random commentary for the example other commentary for the same topic");
-	}
-	@Test 
-	public void DummymethodforGit2() 
-	{
-		System.out.println("this its a random commentary for the example other commentary, this will be pulled from the secondary branc");
-	}
-	
 	@DataProvider
 	public Object[][] CitysandDays()
 	{

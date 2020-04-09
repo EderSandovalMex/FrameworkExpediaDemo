@@ -1,13 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-03-19T19:45:49 CST" name="Suite" finished-at="2020-03-19T19:49:47 CST" duration-ms="238673">
+  <suite started-at="2020-04-09T17:10:38Z" name="Suite" finished-at="2020-04-09T17:14:02Z" duration-ms="204052">
     <groups>
     </groups>
-    <test started-at="2020-03-19T19:45:49 CST" name="Test" finished-at="2020-03-19T19:49:47 CST" duration-ms="238673">
+    <test started-at="2020-04-09T17:10:38Z" name="Test" finished-at="2020-04-09T17:14:02Z" duration-ms="204052">
       <class name="E2EAcademy.expedia">
-        <test-method signature="expediaOrderDateAsc(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:E2EAcademy.expedia@79defdc]" started-at="2020-03-19T19:45:49 CST" name="expediaOrderDateAsc" data-provider="CitysandDays" finished-at="2020-03-19T19:47:32 CST" duration-ms="103020" status="PASS">
+        <test-method signature="DummymethodforGit()[pri:0, instance:E2EAcademy.expedia@2262b621]" started-at="2020-04-09T17:10:38Z" name="DummymethodforGit" finished-at="2020-04-09T17:10:38Z" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DummymethodforGit -->
+        <test-method signature="expediaOrderDateAsc(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:E2EAcademy.expedia@2262b621]" started-at="2020-04-09T17:10:38Z" name="expediaOrderDateAsc" data-provider="CitysandDays" finished-at="2020-04-09T17:12:28Z" duration-ms="110702" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -33,7 +37,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- expediaOrderDateAsc -->
-        <test-method signature="expediaOrderDateDesc(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:E2EAcademy.expedia@79defdc]" started-at="2020-03-19T19:47:32 CST" name="expediaOrderDateDesc" data-provider="CitysandDays" finished-at="2020-03-19T19:49:47 CST" duration-ms="135623" status="PASS">
+        <test-method signature="DummymethodforGit1()[pri:0, instance:E2EAcademy.expedia@2262b621]" started-at="2020-04-09T17:10:38Z" name="DummymethodforGit1" finished-at="2020-04-09T17:10:38Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DummymethodforGit1 -->
+        <test-method signature="DummymethodforGit2()[pri:0, instance:E2EAcademy.expedia@2262b621]" started-at="2020-04-09T17:10:38Z" name="DummymethodforGit2" finished-at="2020-04-09T17:10:38Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DummymethodforGit2 -->
+        <test-method signature="expediaOrderDateDesc(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:E2EAcademy.expedia@2262b621]" started-at="2020-04-09T17:12:28Z" name="expediaOrderDateDesc" data-provider="CitysandDays" finished-at="2020-04-09T17:14:02Z" duration-ms="93318" status="PASS">
           <params>
             <param index="0">
               <value>
